@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+.nombre{
+width: 450px;
+height: 106px;
+left: 41px;
+top: 10px;
+text-align:left;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+font-style:cursive;
+font-weight: 300px;
+font-size: 20px;
+line-height: 129px;
+color: white;
+}
+
+.nombre:hover{
+    color: goldenrod;
+}
+.menu{
+    background-color: black;
+    padding: 0;
+    list-style-type: none;
+    margin: 20px auto;
+    text-align: center;
+    display: inline-block;
+    padding: 0px;
+    margin: 0px;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    font-style:italic;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.menu li{
+    display: inline-block;
+    text-align: end;
+}
+.menu li a{
+    padding: 20px;
+    margin: 10px;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    font-style:italic;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.menu li a:hover{
+    color: black;
+    background-color: goldenrod;
+}
